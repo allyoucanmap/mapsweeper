@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+
+.cover-tile {
+    fill: #dddddd;
+    stroke: #333333;
+    cursor: pointer;
+}
+
+.cover-tile:hover {
+    fill: #eeeeee;
+    stroke: #333333;
+    cursor: pointer;
+}
+
+.screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.toolbar {
+    display: flex;
+    padding: 0.25em;
+    border: 1px solid #ccc;
+}
+
+.mines,
+.time {
+    border: 1px solid #ccc;
+    padding: 0.1em 0.25em;
+}
+
+.state {
+    text-align: center;
+    flex: 1;
+}
+
+.screen svg {
+    flex: 1;
+}
+
+.results {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.results-content {
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.6);
+}
